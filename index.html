@@ -3,77 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,400i,700" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
   	<header class="main-header">
   		<div class="header-top">
   			<a class="logo">ТЕХНОМАРТ</a>
-  			<form class="search">
-          <label for="search">Поиск:</label>
-          <input type="text" id="search">
-          <button type="submit" aria-label="Найти">Найти</button>
+  			<form class="search" action="https://echo.htmlacademy.ru" method="post">
+          <input type="search" placeholder="Поиск:" class="input">
         </form>
-  			<b class="bookmarks">Закладки:</b>
-  			<a class="btn" href="#">Корзина:</a>
-  			<a class="btn" href="#">Оформить заказ</a>
-  			<p class="header-infotext">
+  			<a class="bookmarks" href="#">Закладки:</a>
+  			<a class="basket" href="#">Корзина:</a>
+  			<a class="to-order" href="#">Оформить заказ</a>
+      </div>
+      <div class="header-bottom">
+        <p>
   			   Интернет-магазин<br>
            строительных материалов<br>
            и инструментов для ремонта
   			</p>
-  			<address class="header-contacts">
-  				<span>+7 (812) 555-05-55</span><br>
+        <span class="tel">+7 (812) 555-05-55</span>
+  			<address class="address">
   				<span>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/18</span>
   			</address>
   			<ul class="user-navigation">
           <li class="login-link"><a href="#">Войти</a></li>
           <li class="check-in"><a href="#">Регистрация</a></li>
         </ul>
-  		</div>
-  		<nav class="main-navigation">
-  			<ul class="site-navigation">
-  				<li><a href="#">Главная</a></li>
-  				<li><a href="#">Компания</a></li>
-  				<li><a href="#">Каталог</a></li>
-  				<li><a href="#">Новости</a></li>
-  				<li><a href="#">Спецпредложения</a></li>
-  				<li><a href="#">Доставка</a></li>
-  				<li><a href="#">Контакты</a></li>
-  			</ul>
-  		</nav>
+  		  <nav class="main-navigation">
+  			  <ul class="site-navigation">
+  			  	<li><a href="#">Главная</a></li>
+  			  	<li><a href="#">Компания</a></li>
+  				  <li><a href="#">Каталог</a></li>
+  				  <li><a href="#">Новости</a></li>
+  				  <li><a href="#">Спецпредложения</a></li>
+  				  <li><a href="#">Доставка</a></li>
+  				  <li><a href="#">Контакты</a></li>
+  			  </ul>
+  		  </nav>
+      </div>
   	</header>
   	<main class="container">
-  		<section class="goods services">
+  		<section class="goods-services">
   			<h2 class="visually-hidden">Товары и услуги</h2>
   			<div class="goods-category">
   				<h3>Материалы</h3>
-  				<a href="#" class="button">НА ЛЮБОЙ ВКУС</a>
+  				<a href="#" class="button category">НА ЛЮБОЙ ВКУС</a>
   			</div>
         <div class="tool-category">
         	<h3>Инструмент</h3>
-        	<a href="#" class="button">НА ВСЕ СЛУЧАИ</a>
+        	<a href="#" class="button category">НА ВСЕ СЛУЧАИ</a>
         </div>
   			<div class="equipment-category">
   				<h3>Техника</h3>
-  				<a href="#" class="button">ДЛЯ СТРОЙКИ</a>
+  				<a href="#" class="button category">ДЛЯ СТРОЙКИ</a>
   			</div>
   			<div class="discounts-category">
   				<h3>Скидки 50%</h3>
-  				<a href="#" class="button">НА 350 ТОВАРОВ</a>
+  				<a href="#" class="button category">НА 350 ТОВАРОВ</a>
   			</div>
   			<div class="delivery-category">
   				<h3>Доставка</h3>
-  				<a href="#" class="button">БЕСПЛАТНО</a>
+  				<a href="#" class="button category">БЕСПЛАТНО</a>
   			</div>
-  		  <div>
+  		  <div class="catalog-open">
   		  	<b>Дрели</b>
   		  	<img src="img/slider 2.jpg" width="620" height="266" alt="Дрели">
-  		  	<a href="#">ОТКРЫТЬ КАТАЛОГ</a>
+  		  	<a class="button" href="#">ОТКРЫТЬ КАТАЛОГ</a>
   		  </div>
-  			<div>
+  			<div class="catalog-open">
   			  <b>Перфораторы</b>
   			  <img src="img/slider 1.jpg" width="620" height="266" alt="Дрели">
-  			  <a href="#">ОТКРЫТЬ КАТАЛОГ</a>
+  			  <a class="button" href="#">ОТКРЫТЬ КАТАЛОГ</a>
   			</div>
   		</section>
   		<section class="popular-goods">
@@ -144,9 +147,10 @@
             <li class="button-bookmarks"><a href="#">ЗАКЛАДКИ</a></li>
           </ul>
           <div class="modal-catalog" id="win">
+            <p>Товар добавлен в корзину!</p>
+            <button class="modal-close" type="button">Закрыть</button>
             <div class="visible">
-              <p>Товар добавлен в корзину!</p>
-              <a class="overlay" title="Оформить заказ" href="#">Оформить заказ</a>
+              <a class="button" title="Оформить заказ" href="#">Оформить заказ</a>
               <a class="overlay" title="Продолжить покупку" href="#">Продолжить покупку</a>
             </div>
           </div>
@@ -215,24 +219,25 @@
   		</section>
   		<section class="contacts">
   			<h2>КОНТАКТЫ</h2>
-  			<p>Вы можете забрать товар сами, 
-           заехав в наш офис:</p>
+  			<p class="pick-up">Вы можете забрать товар сами, 
+           заехав в наш офис:
+        </p>
         <p>
           <a href="#"><img src="img/maps.png" width=" 300" height="158" alt="Большая Конюшенная улица, дом 19, Санкт-Петербург"></a>
         </p>
         <a class="btn" href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
         <form class="write-to-us" action="#" method="post">
             <p>
-              <label for="write-to-us-name">Ваше имя:</label>
-              <input type="text" name="Name" id="write-to-us-name" value="Прудставьтесь, пожалуйста">
+              <label for="write-name">Ваше имя:</label>
+              <input type="text" name="Name" id="write-name" placeholder="Прудставьтесь, пожалуйста">
             </p>
             <p>
-              <label for="write-to-us-email">Ваш e-mail:</label>
-              <input type="text" name="E-Mail" id="write-to-us-email" value="Для отправки ответа">
+              <label for="write-email">Ваш e-mail:</label>
+              <input type="text" name="E-Mail" id="write-email" placeholder="Для отправки ответа">
             </p>
             <p>
-              <label for="write-to-us-text">Текст письма:</label>
-              <textarea type="text" name="Text" id="write-to-us-text" rows="10" value="В свободной форме">Текст</textarea>
+              <label for="write-text">Текст письма:</label>
+              <textarea type="text" name="Text" id="write-text" rows="10" placeholder="В свободной форме">В свободной форме</textarea>
             </p>
             <button type="submit">Отправить</button>
           </form>
@@ -261,7 +266,7 @@
   				<li><a href="#">Инструмент</a></li>
   				<li><a href="#">Спецпредложения</a></li>
   			</ul>
-  		</dic>
+  		</div>
   		<div class="footer-bottom">
   			<p class="bottom-info">
   				© 2010–2017 Компания «Техномарт»
@@ -272,11 +277,11 @@
   				<li><a href="#" aria-label="Фейсбук"></a>Фейсбук</li>
   				<li><a href="#" aria-label="Инстаграм"></a>Инстаграм</li>
   			</ul>
-  			<p class="bottom-contact">
-  				Обратная связь:<a class="button" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+  			<p class="feedback">
+  				Обратная связь:<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
   			</p>
   			<p class="footer-copyright">
-  				Разработано:<a class="button" href="https://htmlacademy.ru">htmlacademy.ru</a>
+  				Разработано:<a href="https://htmlacademy.ru">htmlacademy.ru</a>
   			</p>
   		</div>
   	</footer>
@@ -290,9 +295,9 @@
       <button class="modal-close" type="button">Закрыть</button>
     </section>
 
-    <section class="modal modal-login">
+    <section class="modal-login">
       <h2>Личный кабинет</h2>
-      <p>Введите свой логин и пароль.</p>
+      <p>Введите свой логин и пароль.</p>
       <form class="login-form" action="#" method="post">
         <p>
           <label class="visually-hidden" for="user-login">Логин</label>
@@ -315,20 +320,20 @@
       <button class="modal-close" type="button">Закрыть</button>
     </section>
 
-    <section class="modal-check in">
+    <section class="modal-checkin">
       <h2>Регистрация</h2>
       <form class="check-in-form" action="#" method="post">
         <p>
           <label class="visually-hidden" for="check-in-user">Логин</label>
-          <input class="check-in-user" id="check-in-user" type="text" name="login" placeholder="Логин (e-mail)">
+          <input class="checkin-user" id="check-in-user" type="text" name="login" placeholder="Логин (e-mail)">
         </p>
         <p>
           <label class="visually-hidden" for="check-in-password">Пароль</label>
-          <input class="check-in-password" id="check-in-password" type="password" name="password" placeholder="Пароль">
+          <input class="checkin-password" id="check-in-password" type="password" name="password" placeholder="Пароль">
         </p>
         <p>
-          <label for="check-in-text">Текст письма:</label>
-          <textarea type="text" name="Text" id="check-in-text" rows="10" value="Текст">Информация о себе</textarea>
+          <label for="checkin-text">Текст письма:</label>
+          <textarea type="text" name="Text" id="checkin-text" rows="10" value="Текст">Информация о себе</textarea>
         </p>
         <p>
           <input type="checkbox" name="subscribe" id="subscribe-field" checked>
@@ -336,6 +341,7 @@
         </p>
         <button class="button" type="submit">Зарегистрироваться</button>
       </form>
+      <button class="modal-close" type="button">Закрыть</button>
     </section>
 
   </body>

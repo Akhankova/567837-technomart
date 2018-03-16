@@ -1,0 +1,657 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+
+  background-color: #ffffff;
+  background-image: url("img/fon.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  background-color: #ee3643;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.header-top .logo {
+  background-color: #ee3643;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.header-top .logo:hover,
+.header-top .logo:focus {
+  background-color: #ca2c37;
+}
+
+.header-top .logo:active {
+  background-color: #ba2732;
+}
+
+.button.category {
+  color: #ffffff;
+  background-color: #e5e5e5;
+}
+
+.button.category:hover,
+.button.category:focus {
+  background-color: #cccccc;
+}
+
+.button.category:active {
+  background-color: #b2b2b2;
+}
+
+.catalog-open a:hover,
+.catalog-open a:focus {
+  background-color: #ca2c37;
+}
+
+.catalog-open a:active {
+  background-color: #ba2732;
+}
+
+.button {
+  background-color: #ee3643;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.header-top {
+  background-color: #293449;
+}
+
+.header-bottom {
+  background-color: #f3f7f8
+}
+
+.header-bottom p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+}
+
+.header-top .to-order {
+  background-color: #63a63e;
+}
+
+.header-top .to-order:hover, 
+.header-top .to-order:focus {
+  background-color: #5fbb2d;
+}
+
+.header-top .to-order:active {
+  color: rgba(255, 255, 255, 0.51);
+  background-color: #518534;
+}
+
+.bookmarks:hover,
+.bookmarks:focus {
+  background-color: #212a3a;
+}
+
+.bookmarks:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.basket:hover,
+.basket:focus {
+  background-color: #212a3a;
+}
+
+.basket:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-navigation {
+  background-color: #293449;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.user-navigation a{
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #293449;
+}
+
+.site-navigation a:active {
+  background-color: rgba(29, 39, 57, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #ee3643;
+}
+
+.user-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.tel {
+  color: #ee3643;
+}
+
+.address {
+  color: #32425c;	
+}
+
+.goods-services h3 {
+  font-size: 24px;
+  line-height: 30px;	
+}
+
+.goods-category {
+  background-color: #ffbf47;
+}
+
+.tool-category {
+  background-color: #3bbce3;
+}
+
+.equipment-category {
+  background-color: #dc91d8;
+}
+
+.discounts-category {
+  background-color: #8ed78f;
+}
+
+.delivery-category {
+  background-color: #ffc047;
+}
+
+.catalog-item {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.catalog-list li {
+  border: 0.5px solid black;
+  width: 220px;
+  height: 320px;
+}
+
+.catalog-item-price del {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #a9a9a9;
+}
+
+.sub_head {
+  background-color: #f9f5f0;
+}
+
+.sub_head h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.manufactures-liste li {
+  border: 0.5px solid black;
+  width: 220px;
+  height: 145px;
+}
+
+.services {
+  color: #32425c;
+  background-color: #f4f8f9;
+  background-image: url("img/fon2.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.footer-bottom {
+  background-color: #293449;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.footer-middle {
+  background-color: #32425c;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.footer-top {
+  background-color: #32425c;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.footer-navigation-goods a {
+  color: #ffd180;
+}
+
+.feedback a {
+  color: #ffd180;
+}
+
+.footer-copyright a {
+  color: #ffd180;
+}
+
+.modal-login {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.write-to-us {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;	
+}
+
+input[placeholder] {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  color: #a9a9a9;
+}
+
+.textarea {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-overflow: ellipsis;
+  color: #a9a9a9;
+}
+
+.modal-checkin {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color: #293449;
+}
+
+.company-info h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.company-info p {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.transport-company li {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.contacts h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+
+ .contacts .pick-up {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.liste-hover b {
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
+  font-weight: bold;
+}
+
+.liste-hover p {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.services-liste li {
+  font-size: 21px;
+  line-height: 30px;
+  background-color: #32425c;
+  color: #ffffff;
+}
+
+.services-liste li:hover,
+.services-liste li:focus {
+  background-color: #293449;
+  color: #ffffff;
+}
+
+.services-liste li:active {
+  color: #32425c;
+  background-color: #ffffff;
+}
+
+.footer-navigation a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+}
+
+.footer-navigation a:hover,
+.footer-navigation a:focus {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+  text-decoration: underline;
+}
+
+.footer-navigation a:active {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(241, 245, 247, 0.5);
+  text-decoration: underline;
+}
+
+.footer-navigation-goods a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+}
+
+.footer-navigation-goods a:hover,
+.footer-navigation-goods a:focus {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+  text-decoration: underline;
+}
+
+.footer-navigation-goodsa a:active {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(255, 209, 128, 0.5);
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.feedback a:hover,
+.feedback a:focus {
+  color: #ffd180;
+  text-decoration: underline;
+}
+
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+  color: #ffd180;
+  text-decoration: underline;
+}
+
+.feedback a:active {
+  color: #ee3643;
+}
+
+.footer-copyright a:active {
+  color: #ee3643;
+}
+
+.button-buy a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.button-buy a:hover,
+.button-buy a:focus {
+  background-color: #5fbb2d;
+}
+
+.button-buy a:active {
+  background-color: #518534;
+}
+
+.button-bookmarks a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #32425c;
+  border: 1px solid #518534;	
+}
+
+.button-bookmarks a:hover,
+.button-bookmarks a:focus {
+  border: 1px solid #32425c;
+}
+
+.button-bookmarks a:active {
+  border: 1px solid rgba(50, 66, 92, 0.3);
+}
+
+.modal-catalog {
+  background-color: #ffffff;
+  border-top: 2px solid #ee3643;
+}
+
+.modal-catalog p {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.visible {
+  background-color: #f1f1f1;
+}
+
+.visible .overlay {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.user-name span{
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.my a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.my a:hover,
+.my a:focus {
+  text-decoration: underline;
+  color: #ee3643;
+}
+
+.my a:active {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
+}
+
+.user-name span:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs li {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container-catalog h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+}
+
+.sorting {
+  background-color: #f7f3ec;
+}
+
+.sorting a {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dashed #ee3643;
+}
+
+.sorting a:hover,
+.sorting a:focus {
+  color: #000000;
+  border-bottom: 1px dashed #ee3643;
+}
+
+.sorting a:active {
+  color: #ee3643;
+  border-bottom: none;
+}
+
+.sorting h5 {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.filter h5 {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f7f3ec;
+}
+
+.filter legend {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.filter li {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.range-controls {
+  background-color: #f7f3ec;
+}
+
+.min-price {
+  background-color: #f7f3ec;
+}
+
+.max-price {
+  background-color: #f7f3ec;
+}
+
+.about {
+	background-color: #f2f6f8;
+}
+
+.about b {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+.about p {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;	
+}
+
+.paginaton-list a {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;	
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.paginaton-item.paginaton-item-current a {
+  background-color: #ee3643;
+  color: #ffffff;
+}
+
+.paginaton-list a:hover,
+.paginaton-list a:focus {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.paginaton-list a:active {
+  border: 1px solid #ee3643;
+}
+
+.main-header input:hover,
+.main-header input:focus {
+  background-color: #212a3a;
+}
+
+.main-header input:active {
+  background-color: #ffffff;
+}
+
