@@ -1,0 +1,125 @@
+.footer-top {
+	margin: 0 auto; 
+    padding: 0 10px; 
+    width: 960px;	
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ 	background-color: #32425c;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+ }
+
+.footer-top-background {
+  background-color: #32425c;
+  width: 100%;
+}
+
+ .footer-middle {
+   display: flex;
+   flex-wrap: wrap;	
+   justify-content: space-between;
+   margin-bottom: 15px;
+   margin: 0 auto; 
+   padding: 0 10px; 
+   width: 960px;	
+   background-color: #32425c;
+   font-size: 18px;
+   line-height: 24px;
+   text-decoration: none;
+ }
+
+ .footer-bottom {
+  display: flex;
+   flex-wrap: wrap;	
+   justify-content: space-between;
+   margin: 0 auto; 
+  padding: 0 10px; 
+  width: 960px;	
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.footer-bottom-background {
+  background-color: #293449;
+  width: 100%;
+}
+
+ .footer-navigation {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+ 	width: 560px;
+ 	margin-top: 25px;
+ }
+
+.footer-navigation a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+}
+.footer-navigation a:hover,
+.footer-navigation a:focus {
+  color: #f1f5f7;
+  text-decoration: underline;
+}
+
+.footer-navigation a:active {
+  color: rgba(241, 245, 247, 0.5);
+  text-decoration: underline;
+}
+
+.footer-navigation-goods a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+}
+.footer-navigation-goods {
+ width: 530px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.footer-navigation-goods a:hover,
+.footer-navigation-goods a:focus {
+  color: #ffd180;
+  text-decoration: underline;
+}
+
+.footer-navigation-goods a:active {
+  color: rgba(255, 209, 128, 0.5);
+  text-decoration: underline;
+}
+
+.footer-navigation-goods a {
+  color: #ffd180;
+}
+
+.footer-copyright a {
+  color: #ffd180;
+}
+
+.footer-social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 135px;
+}
+
+.footer-contacts {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.bottom-info {
+	margin-left: 200px;
+}
