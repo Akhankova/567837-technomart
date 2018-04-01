@@ -2294,7 +2294,7 @@ textarea[placeholder] {
   height: 445px;
   top: 50px;
   left: 50%;
-  margin-left: -473px;
+  margin-left: -470px;
 }
 .contacts-map.button-map {
   display: block;
@@ -2305,7 +2305,7 @@ textarea[placeholder] {
   top: 120px;
   left: 50%;
   width: 620px;
-  margin-left: -230px;
+  margin-left: -310px;
   border-top: 4px solid #ee3643;
   z-index: 1000;
 }
